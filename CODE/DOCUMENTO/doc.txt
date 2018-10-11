@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+class factura{
+	private:
+		char*nombre;
+		char*direccion;
+		int cedula;
+	public:
+	void insertar_nombre(char nomb[30]){
+		nombre=nomb;
+	}
+	void insertar_direccion(char dir[30]){
+		direccion=dir;
+}
+	void insertar_cedula(int ci){
+			cedula=ci;	
+	}
+	void mostrar(){
+			printf("Nombre: %s\n",nombre);
+			printf("Direccion: %s\n",direccion);
+			printf("Cedula: %d\n",cedula);
+	}
+};
+int main(){
+	factura lenin;
+	char nombre[30];char direccion[30];int cedula;
+	printf("Ingrese el nombre:");
+	scanf("%s",&nombre);
+	printf("Ingrese la direccion:");
+	scanf("%s",&direccion);
+	printf("Ingrese el numero de cedula:");
+	scanf("%d",&cedula);
+	lenin.insertar_nombre(nombre);
+	lenin.insertar_cedula(cedula);
+	lenin.insertar_direccion(direccion);
+	lenin.mostrar();
+	return 0;

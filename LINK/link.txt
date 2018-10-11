@@ -1,0 +1,2 @@
+http://www.lcc.uma.es/~vicente/docencia/cppdoc/programacion_cxx.pdf
+https://www.uv.es/sto/cursos/c++/curso95.pdf
