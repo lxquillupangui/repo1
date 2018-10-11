@@ -1,0 +1,10 @@
+INTEGRANTES:
+•	LENNYN QUILLUPANGUI.
+•	BRYAN ILBAY.
+REPOSITORIOS EN GIT.
+PASOS.
+•	Empezamos con git init  que nos va a ayudar a iniciar con el versiona miento del programa, a continuación con git add+files que nos sirve para añadir al nuevo repositorio, seguimos con git status para ver que archivos estamos trabajando , seguimos con git commit para poder gravar todo el proyecto y seguir con git log que nos sirve para revisar las versiones que ya pusimos anteriormente continuamos con git checkout que nos devuelve al código anterior, también utilizamos git diff  para revisar los cambios anteriores y git add para agregar los cambios.
+•	Continuamos con git commit-m para poder escribir el mensaje directo y seguir con git brach para que me lista las versión master y continuar con git branch login para aver  creado una versión login y además git checkout login para pasarme ala  versión login y asi llegar a git brach para que me lea el login master y para agregar todos los archivos utilizo grit add. Y terminar con git chekout master  para que se deje ver los cambios que hemos hecho en login .
+•	Y finalizamos subiéndolo a github.
+ 
+
